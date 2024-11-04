@@ -1,32 +1,30 @@
 # p5.js Template
 
 This is a README file that can be used to describe and document your assignment.
-Milestone 2 
-Project: Kanye West's My Beautiful Dark Twisted Fantasy
 
+Project: Kanye West's My Beautiful Dark Twisted Fantasy
 Milestone 3:
 
-What I’ve Done This Week:
+What I’ve Done This Week
 
-This week, I completed the main functionality of the project, focusing on creating smooth and visually appealing transitions between images. I refined the code to ensure each image transition flows seamlessly into the next using time-based logic. Additionally, I tested the project on different screen sizes to ensure it looks good and scales correctly.
+This week, I completed the main functionality of the project, focusing on creating smooth and visually appealing transitions between images. I refined the code to ensure each image transition flows seamlessly into the next using time-based logic. I also added keyboard interactivity to make the project more engaging and tested the project on different screen sizes to ensure it looks good and scales correctly.
 
-Description of Final Interactivity and Time-Based Logic:
+Description of Final Interactivity and Time-Based Logic
 
-The project uses time-based transitions to create a continuous loop of images that fade smoothly from one to the next.
+* The project uses time-based transitions to create a continuous loop of images that fade smoothly from one to the next.
+* The images transition using a crossfade effect, where the alpha (transparency) value of the current image decreases while the next image's alpha value increases. This ensures a fluid and seamless visual experience.
+* The full album cover remains as a static background, while the center images change dynamically, giving the effect of evolving visuals over time.
+* Keyboard Interactivity: Users can influence the transitions with the following keys:
+    * 'N' Key: Skips to the next image immediately.
+    * 'S' Key: Slows down the transition speed.
+    * 'F' Key: Speeds up the transition speed.
+* The code is optimised for responsiveness, with the canvas and images automatically resizing to fit the window.
 
-The images transition using a crossfade effect, where the alpha (transparency) value of the current image decreases while the next image's alpha value increases. This ensures a fluid and seamless visual experience.
+Visuals: Images, Drawings, Sketches
 
-The full album cover remains as a static background, while the center images change dynamically, giving the effect of evolving visuals over time.
-
-The code is optimised for responsiveness, with the canvas and images automatically resizing to fit the window.
-
-Visuals: Images, Drawings, Sketches:
-
-Album Cover: A full static background image of the album cover.
-
-Center Images: A series of 10 images that transition in the center, creating a dynamic focal point.
-
-(I have included all the images )
+* Album Cover: A full static background image of the album cover.
+* Center Images: A series of 10 images that transition in the center, creating a dynamic focal point.
+(I have included all the images.)
 
 Milestone 2:
 
