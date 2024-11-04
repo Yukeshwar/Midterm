@@ -4,6 +4,32 @@ This is a README file that can be used to describe and document your assignment.
 Milestone 2 
 Project: Kanye West's My Beautiful Dark Twisted Fantasy
 
+Milestone 3:
+
+What I’ve Done This Week:
+
+This week, I completed the main functionality of the project, focusing on creating smooth and visually appealing transitions between images. I refined the code to ensure each image transition flows seamlessly into the next using time-based logic. Additionally, I tested the project on different screen sizes to ensure it looks good and scales correctly.
+
+Description of Final Interactivity and Time-Based Logic:
+
+The project uses time-based transitions to create a continuous loop of images that fade smoothly from one to the next.
+
+The images transition using a crossfade effect, where the alpha (transparency) value of the current image decreases while the next image's alpha value increases. This ensures a fluid and seamless visual experience.
+
+The full album cover remains as a static background, while the center images change dynamically, giving the effect of evolving visuals over time.
+
+The code is optimised for responsiveness, with the canvas and images automatically resizing to fit the window.
+
+Visuals: Images, Drawings, Sketches:
+
+Album Cover: A full static background image of the album cover.
+
+Center Images: A series of 10 images that transition in the center, creating a dynamic focal point.
+
+(I have included all the images )
+
+Milestone 2:
+
 1. What I’ve Done This Week
 This week, I focused on setting up the project structure, creating the basic Scene class, and laying out the foundational code for time-based transitions between scenes. I designed the initial visuals and implemented a basic framework for displaying each scene sequentially based on a time-based logic. Additionally, I created placeholders for functions that will handle scene transitions, distortions, and interactivity.
 
