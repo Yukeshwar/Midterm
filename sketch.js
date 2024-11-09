@@ -1,17 +1,17 @@
-let albumCoverImg; // Full album cover image
-let centerImages = []; // Array to hold the center images
+let albumCoverImg; 
+let centerImages = []; 
 let imgWidth, imgHeight;
 let fadeSpeed = 1.25; // Speed of the fading effect
-let currentImageIndex = 0; // Index to track the current image
+let currentImageIndex = 0; // Index for the current image
 let nextImageIndex = 1; // Index for the next image
 let alphaValue = 255; // Alpha value for crossfade effect
 
 function preload() {
-  albumCoverImg = loadImage("AlbumCover.png"); // Load the full album cover
+  albumCoverImg = loadImage("AlbumCover.png"); 
 
   
   for (let i = 1; i <= 10; i++) {
-    centerImages.push(loadImage(`Image${i}.png`)); // Load Image1.png to Image10.png
+    centerImages.push(loadImage(`Image${i}.png`)); 
   }
 }
 
